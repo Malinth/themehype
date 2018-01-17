@@ -1,0 +1,240 @@
+2018-01-06T20:59:00+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/front-page.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T20:59:01+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T20:59:01+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T20:59:18+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/front-page.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T20:59:19+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T20:59:19+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T20:59:22+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/front-page.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T20:59:22+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T20:59:22+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T21:08:33+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T21:08:34+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T21:10:09+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/front-page.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T21:10:10+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T21:10:10+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T21:12:02+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/front-page.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T21:12:03+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T21:12:03+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T21:15:19+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/front-page.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T21:15:20+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-01-06T21:15:20+00:00 CRITICAL Uncaught Error: Class 'themehype_walker_nav_menu' not found in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/header.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/themehype/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/themehype/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/404.php(1): get_header()
+#4 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+

@@ -1,0 +1,16 @@
+/*
+Theme Name: thehype
+Theme URI: http://themehype.com
+Description: Theme for my webshop
+Author: Malin Thunberg
+Author URI: https://github.com/Malinth
+Version: 1.0
+License: Unlicense
+License URI: http://unlicense.org
+*/
+
+
+/*Import css*/
+@import url('bootstrap/css/bootstrap.scss');
+@import url('theme/css/thehype.css');
+
