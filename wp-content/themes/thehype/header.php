@@ -13,8 +13,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <?php wp_head(); ?>
-
-  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+<!-- 
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script> -->
 </head>
 
 <body <?php body_class(); ?>>
@@ -45,7 +45,7 @@
     ?>
 
 <i class="cart-items">
-    <a href="http://localhost/themehype/cart/"> <span class="fas fa-shopping-cart fa-sm"></span></a>
+    <a href="http://themehype.test/cart"> <span class="fas fa-shopping-cart fa-sm"></span></a>
       </i>
       <a class="cart-contents" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> - <?php echo WC()->cart->get_cart_total(); ?></a>
 

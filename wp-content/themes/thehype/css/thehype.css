@@ -30,6 +30,21 @@ License URI: http://unlicense.org
 /* Import fonts*/
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+
+
+/* 
+ .logo a, .preloader-logo {
+  font: 700 38px "Montserrat", Helvetica Neue, Arial, sans-serif;
+  color: #ffffff;
+  -webkit-transition: font 0.25s ease-out;
+  transition: font 0.25s ease-out;
+} */
+
+ /* .logo a {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #333333;
+} */
 
 /*-------------------------------------------------------*/
 /*-------------------------------------------------------*/
@@ -83,6 +98,8 @@ p {
   margin-bottom: 20px; 
 }
 
+
+
 /*-------------------------------------------------------*/
 /*-------------------------------------------------------*/
 /*Header
@@ -90,6 +107,12 @@ p {
 
 .cart-items{
   padding-right: 10px;
+}
+.cart-contents{
+font-size: 11px;
+font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+letter-spacing: 2px;
+text-transform: uppercase; 
 }
 
 #mainNav {
@@ -104,10 +127,18 @@ letter-spacing: 1px; }
 
 #mainNav .navbar-brand {
 color: #663300;
-font-family: 'Lobster', cursive;  
+/* font-family: 'Lobster', cursive!important;   */
+font-family: 'Montserrat', sans-serif;
 font-size: 2.3rem;
 font-weight: 200;
 letter-spacing: 1px; 
+color: white;
+text-transform: uppercase;
+}
+
+#mainNav .navbar-brand a {
+  -webkit-text-stroke-width: 6px;
+  -webkit-text-stroke-color: #333333;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
@@ -199,16 +230,12 @@ width: 100%;
 height: 100%;
 }
 
-.header-content {
-position: relative;
-max-width: 500px;
-}
 
 .header-content {
 position: absolute;
-top: 50%;
-left: 40%;
-transform: translate(-50%, -80%);
+top: 20%;
+left: 4%;
+/* transform: translate(-50%, -50%); */
 }
 
 .headeroverlay{
@@ -281,13 +308,33 @@ section.contact ul.list-social li.social-tumblr a:hover {
 
 /*-------------------------------------------------------*/
 /*-------------------------------------------------------*/
+/* Faw & Terms template
+/*-------------------------------------------------------*/
+
+.page-template-terms #mainNav {
+  border-color: transparent;
+  background-color: #ffc107!important; 
+}
+
+.terms{
+padding-top: 100px;
+}
+
+.page-template-terms footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
 /* Woo-commerce
 /*-------------------------------------------------------*/
 
 .page-id-5 #mainNav {
   border-color: transparent;
   background-color: #ffc107!important; 
-
 }
 
 .page-id-6 #mainNav {
@@ -306,7 +353,7 @@ section.contact ul.list-social li.social-tumblr a:hover {
 }
 
 .ecommerce{
-  margin: 60px 0 0 0;
+  margin: 90px 0 0 0;
 }
 
 /* Cart */
@@ -342,6 +389,12 @@ section.contact ul.list-social li.social-tumblr a:hover {
 
 /* Shop */
 
+.woocommerce div.product .product_title {
+  clear: none;
+  margin-top: 0;
+  padding-top: 100px;
+}
+
 .woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
   float: none!important;
   text-align: center;
@@ -367,11 +420,29 @@ section.contact ul.list-social li.social-tumblr a:hover {
 
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
   float: left;
-  margin: 0 3.8% 2.992em 0;
+  margin: 0 5% 5% 0;
   padding: 40px;
   position: relative;
-  width: 35%;
+  width: 27%;
   margin-left: 0;
+}
+.woocommerce ul.products li.product a img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0 1em;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 10px solid;
+}
+
+
+
+
+.woocommerce-products-header__title.page-title {
+  padding-left: 50px;
+  /* text-align: center; */
+  font-size: 12px!important;
 }
 
 /* Sinlge product */
@@ -381,6 +452,42 @@ section.contact ul.list-social li.social-tumblr a:hover {
   margin: 50px 0 0 50px ;
   padding: 0;
 }
+
+
+/* Checkout */
+.col-1 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 8.333333%;
+  flex: 0 0 8.333333%;
+  max-width: 100%;
+}
+
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+  float: left;
+  width: 80%;
+}
+
+/* Contact */
+
+.contact-content{
+  position: absolute;
+  top: 13%;
+  left: 6%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.page-template-contact #mainNav {
+  border-color: transparent;
+  background-color: lightgrey!important; 
+}
+
+
+/* Exempelbild till ngn sida*/
+/* .img-responsive.img-contact{
+width: 60%;
+float: right;
+} */
+
 
 
 /*-------------------------------------------------------*/

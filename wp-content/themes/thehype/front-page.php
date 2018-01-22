@@ -15,7 +15,7 @@
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
            <?php the_content(); ?>
            
-          <a href="http://localhost/themehype/shop/" class="btn btn-outline btn-xl js-scroll-trigger">Check all themes</a>
+          <a href="themehype.test/shop" class="btn btn-outline btn-xl js-scroll-trigger">Check all themes</a>
 
               </div>
             </div>

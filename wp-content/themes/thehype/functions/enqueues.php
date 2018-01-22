@@ -12,8 +12,8 @@ function hype_enqueues() {
 	
 	/* Scripts */
 	
-	// wp_register_script('font-awesome-all', '/font-awesome/fontawesome-all.js', false, '5.0.4', null);
-	// wp_enqueue_script('font-awesome-all');
+	wp_register_script('font-awesome-all', 'https://use.fontawesome.com/releases/v5.0.2/js/all.js', false, '5.0.2', null);
+	wp_enqueue_script('font-awesome-all');
 
   	wp_register_script('modernizr',  'https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js', false, '2.8.3', true);
 	wp_enqueue_script('modernizr');

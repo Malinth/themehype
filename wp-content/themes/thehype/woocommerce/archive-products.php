@@ -16,11 +16,12 @@ get_header( 'shop' );
  */
 do_action( 'woocommerce_before_main_content' );
 ?>
+  <div class="jumbotron">
 <header class="woocommerce-products-header">
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
 	<?php endif; ?>
-
+</div>
 	<?php
 	/**
 	 * Hook: woocommerce_archive_description.
@@ -80,6 +81,6 @@ do_action( 'woocommerce_after_main_content' );
  *
  * @hooked woocommerce_get_sidebar - 10
  */
-?> hej <?php
+?> <?php
 do_action( 'woocommerce_sidebar' );
 get_footer( 'shop' );?>
