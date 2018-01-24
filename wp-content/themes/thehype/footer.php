@@ -18,10 +18,18 @@
 
 
   <div class="container text-center">
+  
+  <?php wp_nav_menu( array(
+     'theme_location' => 'footer-menu', 
+     'container_id'   => 'inline-item',
+     'items_wrap'     => '<ul id="%1$s" class="list-inline"> %3$s </ul>'
+  
+  ) ); ?>
 
+<!--
     <ul class="list-inline">
       <li class="list-inline-item">
-        <a href="http://localhost/themehype/contact/">Contact</a>
+        <a href="http://themehype.test/license/">License</a>
       </li>
       <li class="list-inline-item">
         <a href="http://localhost/themehype/terms-and-conditions/">Terms</a>
@@ -30,7 +38,7 @@
         <a href="http://localhost/themehype/terms-and-conditions/">FAQ</a>
       </li>
     </ul>
-  
+-->
 
   
     <p class="text-center">&copy; <?php echo date('Y'); ?> <a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></p>

@@ -61,7 +61,8 @@ register_nav_menu('navbar', __('Navbar', 'themehype'));
 function register_my_menus() {
 	register_nav_menus(
 	  array(
-		'social-menu' => __( 'Social Menu' )
+		'social-menu' => __( 'Social Menu' ),
+		'footer-menu' => __( 'Footer Menu' )
 	   )
 	 );
    }

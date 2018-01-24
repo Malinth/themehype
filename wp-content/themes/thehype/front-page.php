@@ -43,14 +43,14 @@
    
     <div class="row">
             <?php 
-$images = get_field('gallery');
+$images = get_field('extra_gallery');
 $size = 'medium'; ?>
 
   <?php
       if( $images ): ?>
 
         <?php foreach( $images as $image ): ?>
-        <div class="card">
+        <div class="card img-responsive">
      <?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
       </div>
 
