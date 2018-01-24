@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <div class="headers"> 
-  <div class="headeroverlay"> 
+  <div class="header-overlay"> 
 
   <?php if ( has_post_thumbnail() ) : ?>
         <?php the_post_thumbnail('large'); ?>
