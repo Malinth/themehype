@@ -238,3 +238,11 @@ Stack trace:
 #7 {main}
   thrown
 
+2018-03-01T16:41:59+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_loop_prop() in /Applications/MAMP/htdocs/themehype/wp-content/themes/thehype/woocommerce/archive-product.php:46
+Stack trace:
+#0 /Applications/MAMP/htdocs/themehype/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/themehype/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/themehype/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown
+

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Contact
+ * Template Name: Cart
  *
  */
 ?>
@@ -17,13 +17,12 @@
 
 
 
-        <div class="contact-content">
+        <div class="cart-content">
+       
 
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
            <?php the_content(); ?>
-
-          <a href="http://themehype.test/contact/" class="btn btn-outline btn-xl js-scroll-trigger">themehype@hotmail.com</a>
-    
+           
 
               </div>
             </div>
