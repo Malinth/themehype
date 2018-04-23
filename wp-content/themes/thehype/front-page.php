@@ -53,7 +53,7 @@
       if( $images ): ?>
 
         <?php foreach( $images as $image ): ?>
-        <div class="img-responsive text-center">
+        <div class="col-sm-12 col-m-12 img-responsive text-center">
         <?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
       </div>
 </div>
